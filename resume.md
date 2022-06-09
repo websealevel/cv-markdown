@@ -5,7 +5,8 @@
 line. It is intended to be used for contact details -->
 - <paul.schuhm@gmail.com>
 - 0673500567
-- [richardhendricks.example.com](https://www.linkedin.com/in/paul-schuhmacher-39540096/)
+- [LinkedIn](https://www.linkedin.com/in/paul-schuhmacher-39540096/)
+- [GitHub](https://github.com/websealevel)
 - Ancenis, France
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
