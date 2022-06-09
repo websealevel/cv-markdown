@@ -161,6 +161,28 @@ Jusqu'ici j'ai sous-titré
 - la conférence [*The value of values*](https://www.youtube.com/watch?v=VJi1vOwu2SM&list=PLS3XEhTy6-AkS1j8JrHoJnkSrY31Bfddl&index=6) de Rich Hickey, sur les concepts fondamentaux des systèmes d'information
 - d'autres conférences sur des sujets liés à la programmation et à ses paradigmes à venir, notamment la superbe série de cours [Structure and Interpration of Computer Programs](https://www.youtube.com/watch?v=-J_xL4IGhJA&list=PLE18841CABEA24090) d'Abelson et Sussman
 
+
+### [Développement et maintenance d'un starterpack dockerisé](https://github.com/websealevel/starterpack-front-php8-postgresql-adminer)
+
+J'ai mis à disposition [un dépôt](https://github.com/websealevel/starterpack-front-php8-postgresql-adminer) afin de fabriquer, utiliser un starterpack dans un worflow *Docker multi-projets friendly*. Cet environnement utiliser Docker et traefick comme reverse-proxy pour se créer un environnement de développement local pratique, *machine-indépendant*.
+
+### [Développement d'une plateforme d'édition collaborative à destination d'une communauté](https://github.com/websealevel/archives-de-bureaulogie)
+
+Les archives de bureaulogie est un projet qui a pour ambition de promouvoir la bureaulogie en proposant une plateforme collaborative de publication d'extraits vidéos du [tribunal des bureaux](https://www.youtube.com/watch?v=YglE-FnSd3g&list=PLDN-m4HWH8MBKJLYIK-80qJBBkVJbPo9p) d'ackboo, journaliste chez CanardPC,  ainsi que de diffusion de références bibliographiques pour approfondir le sujet.
+
+Il sert également de prétexte pour construire un outil en vanilla php pour se former (notamment à la sécurité) et pour s'amuser.
+
+Le projet peut être divisé en 4 composants
+
+- une application web pour éditer des extraits vidéos, télécharger des vidéos à *cliper*, soummettre des références bibliographiques, modérer toutes les ressources proposées par des modérateurs
+- une application *core*, indépendante de l'appli web, qui manipule les fichiers vidéos (clip, téléchargement), accessible directement depuis une CLI
+- des bots Twitter qui vont venir poster des extraits issus de cette base de données à intervalle régulier
+- une base de données relationnelle, notamment pour gérer les comptes utilisateurs, ainsi que leurs roles et leurs droits associés
+
+Le projet est servi par une combinaison *Nginx/php-fpm*.
+
+L'idée est ensuite de livrer cette application à la communauté pour qu'elle s'en serve et de permettre que le code source soit réutilisé pour d'autres projets.
+
 ### Rédaction d'articles à destination des développeurs et des créatif· ves
 
 J'essaie de me mettre à écrire des articles à destination des développeurs et des créatif· ves. 
@@ -168,6 +190,8 @@ J'essaie de me mettre à écrire des articles à destination des développeurs e
 J'ai écrit [cet article](https://pschuhmacher.gumroad.com/l/writing-workflow), sur une proposition d'environnement et un processur éditorial pour toutes les activités d'écriture. 
 
 Le but est de proposer à des personnes créatives de s'emparer d'outils gratuits et open-source comme le Markdown, git et GitHub pour se créer un environnement d'écriture sain et pratique, notamment pour des travaux collaboratifs. Je m'essaie au passage à la monétisation, et je compte traduire cet article en anglais prochainement.
+
+
 
 ## Compétences techniques
 
