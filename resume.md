@@ -300,4 +300,4 @@ Le but est de proposer à des personnes créatives de s'emparer d'outils gratuit
 - enseignement et vulgarisation
 - le social
 - écrire (en Markdown)
-- les livres techniques sur l'informatique et le design web
+- trouver, lire et vivre parmi les livres techniques sur l'informatique et le design web
