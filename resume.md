@@ -185,18 +185,18 @@ Je maintiens [un dépôt](https://github.com/websealevel/starterpack-front-php8-
 
 ### [Développement d'une plateforme d'édition collaborative à destination d'une communauté](https://github.com/websealevel/archives-de-bureaulogie)
 
-[Les archives de bureaulogie](https://archives-de-bureaulogie.fr/) est un projet qui a pour ambition de promouvoir la bureaulogie en proposant une plateforme collaborative de publication d'extraits vidéo du [tribunal des bureaux](https://www.youtube.com/watch?v=YglE-FnSd3g&list=PLDN-m4HWH8MBKJLYIK-80qJBBkVJbPo9p) d'ackboo, journaliste chez CanardPC,  ainsi que de diffusion de références bibliographiques pour approfondir le sujet.
+[Les archives de bureaulogie](https://archives-de-bureaulogie.fr/) est un projet qui a pour ambition de promouvoir la bureaulogie en proposant une plateforme collaborative de publication d'extraits vidéo du [tribunal des bureaux](https://www.youtube.com/watch?v=YglE-FnSd3g&list=PLDN-m4HWH8MBKJLYIK-80qJBBkVJbPo9p) animé par ackboo, journaliste chez CanardPC, ainsi que de diffusion de références bibliographiques pour approfondir le sujet.
 
 Il sert également de prétexte pour construire un outil en *vanilla PHP* pour se former (notamment à la sécurité) et surtout pour s'amuser.
 
-Je n'utilise pas de framework dans le but de ressentir plus en profondeur leurs intérêts et me former au *PHP bas niveau*. Ce projet ne respecte pas encore le PSR-4 (architecture composants) mais c'est prévu à terme.
+>Je n'utilise pas de framework dans le but de ressentir plus en profondeur leurs intérêts et me former au *PHP bas niveau*. Ce projet ne respecte pas encore le PSR-4 (architecture composants) mais le fera prochainement.
 
 Le projet peut être divisé en 4 composants :
 
-- une application web pour éditer des extraits vidéo, télécharger des vidéos à *cliper*, soumettre de fausses références bibliographiques, modérer toutes les ressources proposées par des modérateurs
-- une application *core*, indépendante de l'appli web, qui manipule les fichiers vidéo (clip, téléchargement), accessible directement depuis une CLI
-- des bots Twitter qui vont venir poster des extraits issus de cette base de données à intervalle régulier
-- une base de données relationnelle, notamment pour gérer les comptes utilisateurs, ainsi que leurs rôles et leurs droits associés
+- *une application web* pour éditer des extraits vidéo, télécharger des vidéos à *cliper*, soumettre de fausses références bibliographiques, modérer toutes les ressources proposées par des modérateurs
+- *une application core*, indépendante de l'appli web, qui manipule les fichiers vidéo (clip, téléchargement), accessible directement depuis une CLI
+- des *bots Twitter* qui vont venir poster des extraits issus de cette base de données à intervalle régulier
+- une *base de données relationnelle*, notamment pour gérer les comptes utilisateurs, ainsi que leurs rôles et leurs droits associés
 
 Quelques contraintes techniques du projet :
 
@@ -205,7 +205,7 @@ Quelques contraintes techniques du projet :
 - l'appli web propose des processus de téléchargement en arrière-plan pour que ces derniers se poursuivent même lorsque l'utilisateur est déconnecté et ferme son navigateur
 - une intégration au design *brutaliste*, ouvertement daté pour coller à une esthétique de la fin des années 2000.
 
-L'idée est ensuite de livrer cette application à la communauté pour qu'elle s'en serve et de permettre que le code source soit réutilisé pour d'autres projets. Le projet sera maintenu par un travail collaboratif.
+L'idée est ensuite de livrer cette application à la communauté pour qu'elle s'en serve et que le code source puisse être réutilisé pour d'autres projets de diffusion.
 
 Le projet est en cours de développement.
 
@@ -222,8 +222,8 @@ Le but est de proposer à des personnes créatives de s'emparer d'outils gratuit
 ### Développement web
 
 - HTML5, CSS3
-- PHP8 (cgi et php-fpm), PSR-4, Composer, framework Wordpress et Symfony
-- JavaScript (Vue.js), Typescript (sur des petits projets, développement d'un starter pack TS avec webpack), Svelte à venir
+- PHP 8 (cgi et php-fpm), PSR-4, Composer, framework Wordpress et Symfony
+- JavaScript (Jquery, Vue.js), Typescript (sur des petits projets, développement d'un starter pack TS avec webpack), Svelte (à venir)
 - JEE
 - .NET
 - Elm (au balbutiement)
@@ -237,7 +237,7 @@ Le but est de proposer à des personnes créatives de s'emparer d'outils gratuit
 - Docker et docker-compose (que j'utilise en environnement de développement)
 - gulp et webpack
 - Standard XML et associés
-- fortran
+- Markdown et pandoc
 
 ### Base de données
 
@@ -265,6 +265,7 @@ Le but est de proposer à des personnes créatives de s'emparer d'outils gratuit
 - Elm
 - Go
 - DocBook et XSL pour écrire des documents narratifs (articles, livres)
+- Python, pour la manipulation de texte et de fichiers textes
 
 ### Sujets qui m'intéressent
 

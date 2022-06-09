@@ -290,15 +290,17 @@ hand -->
 <h3><a href="https://github.com/websealevel/starterpack-front-php8-postgresql-adminer">Développement et maintenance d&rsquo;un starterpack dockerisé</a></h3>
 <p>Je maintiens <a href="https://github.com/websealevel/starterpack-front-php8-postgresql-adminer">un dépôt</a> documenté pour permettre de fabriquer, d&rsquo;utiliser un environnement de développement * dockerisé et multi-projets friendly<em>. Cet environnement utiliser docker et traefick comme reverse-proxy pour créer un environnement de développement local pratique, </em>machine-indépendant* et multi-projets.</p>
 <h3><a href="https://github.com/websealevel/archives-de-bureaulogie">Développement d&rsquo;une plateforme d&rsquo;édition collaborative à destination d&rsquo;une communauté</a></h3>
-<p><a href="https://archives-de-bureaulogie.fr/">Les archives de bureaulogie</a> est un projet qui a pour ambition de promouvoir la bureaulogie en proposant une plateforme collaborative de publication d&rsquo;extraits vidéo du <a href="https://www.youtube.com/watch?v=YglE-FnSd3g&amp;list=PLDN-m4HWH8MBKJLYIK-80qJBBkVJbPo9p">tribunal des bureaux</a> d&rsquo;ackboo, journaliste chez CanardPC,  ainsi que de diffusion de références bibliographiques pour approfondir le sujet.</p>
+<p><a href="https://archives-de-bureaulogie.fr/">Les archives de bureaulogie</a> est un projet qui a pour ambition de promouvoir la bureaulogie en proposant une plateforme collaborative de publication d&rsquo;extraits vidéo du <a href="https://www.youtube.com/watch?v=YglE-FnSd3g&amp;list=PLDN-m4HWH8MBKJLYIK-80qJBBkVJbPo9p">tribunal des bureaux</a> animé par ackboo, journaliste chez CanardPC, ainsi que de diffusion de références bibliographiques pour approfondir le sujet.</p>
 <p>Il sert également de prétexte pour construire un outil en <em>vanilla PHP</em> pour se former (notamment à la sécurité) et surtout pour s&rsquo;amuser.</p>
-<p>Je n&rsquo;utilise pas de framework dans le but de ressentir plus en profondeur leurs intérêts et me former au <em>PHP bas niveau</em>. Ce projet ne respecte pas encore le PSR-4 (architecture composants) mais c&rsquo;est prévu à terme.</p>
+<blockquote>
+<p>Je n&rsquo;utilise pas de framework dans le but de ressentir plus en profondeur leurs intérêts et me former au <em>PHP bas niveau</em>. Ce projet ne respecte pas encore le PSR-4 (architecture composants) mais le fera prochainement.</p>
+</blockquote>
 <p>Le projet peut être divisé en 4 composants :</p>
 <ul>
-<li>une application web pour éditer des extraits vidéo, télécharger des vidéos à <em>cliper</em>, soumettre de fausses références bibliographiques, modérer toutes les ressources proposées par des modérateurs</li>
-<li>une application <em>core</em>, indépendante de l&rsquo;appli web, qui manipule les fichiers vidéo (clip, téléchargement), accessible directement depuis une CLI</li>
-<li>des bots Twitter qui vont venir poster des extraits issus de cette base de données à intervalle régulier</li>
-<li>une base de données relationnelle, notamment pour gérer les comptes utilisateurs, ainsi que leurs rôles et leurs droits associés</li>
+<li><em>une application web</em> pour éditer des extraits vidéo, télécharger des vidéos à <em>cliper</em>, soumettre de fausses références bibliographiques, modérer toutes les ressources proposées par des modérateurs</li>
+<li><em>une application core</em>, indépendante de l&rsquo;appli web, qui manipule les fichiers vidéo (clip, téléchargement), accessible directement depuis une CLI</li>
+<li>des <em>bots Twitter</em> qui vont venir poster des extraits issus de cette base de données à intervalle régulier</li>
+<li>une <em>base de données relationnelle</em>, notamment pour gérer les comptes utilisateurs, ainsi que leurs rôles et leurs droits associés</li>
 </ul>
 <p>Quelques contraintes techniques du projet :</p>
 <ul>
@@ -307,7 +309,7 @@ hand -->
 <li>l&rsquo;appli web propose des processus de téléchargement en arrière-plan pour que ces derniers se poursuivent même lorsque l&rsquo;utilisateur est déconnecté et ferme son navigateur</li>
 <li>une intégration au design <em>brutaliste</em>, ouvertement daté pour coller à une esthétique de la fin des années 2000.</li>
 </ul>
-<p>L&rsquo;idée est ensuite de livrer cette application à la communauté pour qu&rsquo;elle s&rsquo;en serve et de permettre que le code source soit réutilisé pour d&rsquo;autres projets. Le projet sera maintenu par un travail collaboratif.</p>
+<p>L&rsquo;idée est ensuite de livrer cette application à la communauté pour qu&rsquo;elle s&rsquo;en serve et que le code source puisse être réutilisé pour d&rsquo;autres projets de diffusion.</p>
 <p>Le projet est en cours de développement.</p>
 <h3>Rédaction d&rsquo;articles à destination des développeurs et des créatif· ves</h3>
 <p>J&rsquo;essaie de me mettre à écrire des articles à destination des développeurs et des créatif· ves. </p>
@@ -317,8 +319,8 @@ hand -->
 <h3>Développement web</h3>
 <ul>
 <li>HTML5, CSS3</li>
-<li>PHP8 (cgi et php-fpm), PSR-4, Composer, framework Wordpress et Symfony</li>
-<li>JavaScript (Vue.js), Typescript (sur des petits projets, développement d&rsquo;un starter pack TS avec webpack), Svelte à venir</li>
+<li>PHP 8 (cgi et php-fpm), PSR-4, Composer, framework Wordpress et Symfony</li>
+<li>JavaScript (Jquery, Vue.js), Typescript (sur des petits projets, développement d&rsquo;un starter pack TS avec webpack), Svelte (à venir)</li>
 <li>JEE</li>
 <li>.NET</li>
 <li>Elm (au balbutiement)</li>
@@ -332,7 +334,7 @@ hand -->
 <li>Docker et docker-compose (que j&rsquo;utilise en environnement de développement)</li>
 <li>gulp et webpack</li>
 <li>Standard XML et associés</li>
-<li>fortran</li>
+<li>Markdown et pandoc</li>
 </ul>
 <h3>Base de données</h3>
 <ul>
@@ -359,6 +361,7 @@ hand -->
 <li>Elm</li>
 <li>Go</li>
 <li>DocBook et XSL pour écrire des documents narratifs (articles, livres)</li>
+<li>Python, pour la manipulation de texte et de fichiers textes</li>
 </ul>
 <h3>Sujets qui m&rsquo;intéressent</h3>
 <ul>
