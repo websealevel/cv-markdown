@@ -21,10 +21,15 @@ Développeur web / formateur freelance. Aspire également à travailler un jour 
 hand -->
 ### <span>Développeur/formateur freelance</span> <span>2022</span>
 
-Je m'installe à mon compte pour offrir des prestations de développement/conception et de formation dans le web.
 
-- Développement de sites/applis webs
-- Recueil besoins utilisateurs et logique métier. Formalisation des besoins. Conception base de données relationnelle, modélisation métier
+#### Mes activités
+
+##### Développement web
+
+Je m'installe à mon compte pour offrir des prestations de développement/conception
+
+- Développement de sites, applications web
+- Recueil des besoins utilisateurs. Formalisation des besoins. Conception base de données relationnelle, modélisation de la logique métier
 - Design ou intégration (*content driven* design)
 - Légèreté et performance, pour servir des pages webs de manière optimale (faible bande passante, vieilles machines etc.). La *findability* commence par l'accessibilité et la rapidé de chargement
 - Sécurité et respect des bonnes pratiques
@@ -36,17 +41,30 @@ Je m'installe à mon compte pour offrir des prestations de développement/concep
 - migration WordPress, pointage DNS
 - maintenance: mise à jour, sysadmin, correction de bugs
 
-Je compte également mener en parallèle des projets de publication
+##### Formateur
 
-- en contact avec Alex Miller (Cognitect) et Hiram Madelaine (Eloquent Logic) pour travailler sur la traduction et la transcription de 7 conférences de Rich Hickey en français à destination des francophones.
-- proposition de ré-édition de *La Nature de la Physique* de Richard Feynman, publié aux éditions du Point. Projet en cours de rédaction, soumis prochainement à Farhang Radjaï (Directeur CNRS) et Étienne Guyon (Physicien français) puis à l'éditeur
-
-Je devrai également intervenir en tant que formateur sur les formations suivantes :
+Je vais également intervenir en tant que formateur sur les formations suivantes :
 
 - Développer des applications web en PHP
 - Dévelopement avancé en PHP
 - Sécuriser les applications PHP
 - Wordpress
+
+Je suis en contact avec des structures locales pour animer des ateliers d'assistance informatique lors d'ateliers où des machines sont mises à disposition gratuitement d'un public nécessitant du support technique.
+
+##### Projets de publication (en parallèle)
+
+Je compte également mener en parallèle des projets de publication
+
+- en contact avec Alex Miller (Cognitect) et Hiram Madelaine (Eloquent Logic) pour travailler sur la traduction et la transcription de 7 conférences de Rich Hickey en français à destination des francophones.
+- proposition de ré-édition de *La Nature de la Physique* de Richard Feynman, publié aux éditions du Point. Projet en cours de rédaction, soumis prochainement à Farhang Radjaï (Directeur CNRS) et Étienne Guyon (Physicien français) puis à l'éditeur
+
+##### Prestations à venir
+
+- développement d'un site sur mesure pour [l'atelier du bois d'or](https://atelierduboisdor.fr/), atelier de dorure et d'ébenisterie à Rennes. Site vitrine, blog, contact et mise en avant de projets.
+- développement d'un site pour l'association [CroqSep](https://docteurparadi.com/croqsep). Vitrine, gestion des ateliers (agenda, inscriptions), newsletter, gestion des adhésions (paiement en ligne, génération de facture et du reçu fiscal), contenu réservé aux adhérants, mise à disposition des compte-rendus d'AG
+- développement du site de [Roland Michon](https://www.bedetheque.com/auteur-46127-BD-Michon-Roland.html), réalisateur, producteur, ex enseignant universitaire en esthétique du cinéma et auteur de deux bandes dessinées. Le but est de lui créer un site pour regrouper tous ses travaux, les archiver etc.
+
 
 ### <span>Studio Goliath, développeur web</span> <span>2020 -- 2021</span>
 
