@@ -26,7 +26,7 @@ Je m'installe à mon compte pour offrir des prestations de développement/concep
 - Recueil besoins utilisateurs et logique métier. Formalisation des besoins. Conception base de données relationnelle, modélisation métier
 - Design ou intégration (*content driven* design)
 - Légèreté et performance, pour servir des pages webs de manière optimale (faible bande passante, vieilles machines etc.). La *findability* commence par l'accessibilité et la rapidé de chargement
-- Sécurité et bonnes pratiques
+- Sécurité et respect des bonnes pratiques
 - WordPress : développement de thèmes sur mesure, extension de thèmes existants, développement de plugins. Usage de plugins minimum
 - Utilisation d'outils matures et maintenus
 - Paiement en ligne, gestion de systèmes d'utilisateurs, connexion de sites a des services externes
@@ -173,16 +173,18 @@ J'ai mis à disposition [un dépôt](https://github.com/websealevel/starterpack-
 
 Il sert également de prétexte pour construire un outil en *vanilla PHP* pour se former (notamment à la sécurité) et surtout pour s'amuser.
 
+Je n'utilise pas de framework dans le but de ressentir plus en profondeur leurs intérêts et me former au *PHP bas niveau*. Ce projet ne respecte pas encore le PSR-4 (architecture composants) mais c'est prévu à terme.
+
 Le projet peut être divisé en 4 composants :
 
-- une application web pour éditer des extraits vidéos, télécharger des vidéos à *cliper*, soummettre des références bibliographiques, modérer toutes les ressources proposées par des modérateurs
+- une application web pour éditer des extraits vidéos, télécharger des vidéos à *cliper*, soummettre des fausses références bibliographiques, modérer toutes les ressources proposées par des modérateurs
 - une application *core*, indépendante de l'appli web, qui manipule les fichiers vidéos (clip, téléchargement), accessible directement depuis une CLI
 - des bots Twitter qui vont venir poster des extraits issus de cette base de données à intervalle régulier
 - une base de données relationnelle, notamment pour gérer les comptes utilisateurs, ainsi que leurs roles et leurs droits associés
 
-Quelques contraintes techniques du projet
+Quelques contraintes techniques du projet :
 
-- [cahier des charges](https://github.com/websealevel/archives-de-bureaulogie/blob/main/backlog.md#cahier-des-charges-pour-lencodage-vid%C3%A9oaudio-des-extraits=) sur les formats audio et vidéo. Utilisation de ffmpeg
+- un [cahier des charges](https://github.com/websealevel/archives-de-bureaulogie/blob/main/backlog.md#cahier-des-charges-pour-lencodage-vid%C3%A9oaudio-des-extraits=) stricte sur les formats audio et vidéo (encodage, bitrate, normalisation, poids). Utilisation de ffmpeg
 - le projet est servi par une combinaison *Nginx/php-fpm*
 - l'appli web propose des processus de téléchargement en arrière-plan pour que ces derniers se poursuivent même lorsque l'utilisateur est déconnecté et ferme son navigateur
 - une intégration au design *brutaliste*, ouvertement daté pour coller à une esthétique de la fin des années 2000.
@@ -198,8 +200,6 @@ J'essaie de me mettre à écrire des articles à destination des développeurs e
 J'ai écrit [cet article](https://pschuhmacher.gumroad.com/l/writing-workflow), sur une proposition d'environnement et un processur éditorial pour toutes les activités d'écriture. 
 
 Le but est de proposer à des personnes créatives de s'emparer d'outils gratuits et open-source comme le Markdown, git et GitHub pour se créer un environnement d'écriture sain et pratique, notamment pour des travaux collaboratifs. Je m'essaie au passage à la monétisation, et je compte traduire cet article en anglais prochainement.
-
-
 
 ## Compétences techniques
 

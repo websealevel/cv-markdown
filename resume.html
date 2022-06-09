@@ -142,7 +142,7 @@ hand -->
 <li>Recueil besoins utilisateurs et logique métier. Formalisation des besoins. Conception base de données relationnelle, modélisation métier</li>
 <li>Design ou intégration (<em>content driven</em> design)</li>
 <li>Légèreté et performance, pour servir des pages webs de manière optimale (faible bande passante, vieilles machines etc.). La <em>findability</em> commence par l&rsquo;accessibilité et la rapidé de chargement</li>
-<li>Sécurité et bonnes pratiques</li>
+<li>Sécurité et respect des bonnes pratiques</li>
 <li>WordPress : développement de thèmes sur mesure, extension de thèmes existants, développement de plugins. Usage de plugins minimum</li>
 <li>Utilisation d&rsquo;outils matures et maintenus</li>
 <li>Paiement en ligne, gestion de systèmes d&rsquo;utilisateurs, connexion de sites a des services externes</li>
@@ -264,16 +264,17 @@ hand -->
 <h3><a href="https://github.com/websealevel/archives-de-bureaulogie">Développement d&rsquo;une plateforme d&rsquo;édition collaborative à destination d&rsquo;une communauté</a></h3>
 <p><a href="https://archives-de-bureaulogie.fr/">Les archives de bureaulogie</a> est un projet qui a pour ambition de promouvoir la bureaulogie en proposant une plateforme collaborative de publication d&rsquo;extraits vidéos du <a href="https://www.youtube.com/watch?v=YglE-FnSd3g&amp;list=PLDN-m4HWH8MBKJLYIK-80qJBBkVJbPo9p">tribunal des bureaux</a> d&rsquo;ackboo, journaliste chez CanardPC,  ainsi que de diffusion de références bibliographiques pour approfondir le sujet.</p>
 <p>Il sert également de prétexte pour construire un outil en <em>vanilla PHP</em> pour se former (notamment à la sécurité) et surtout pour s&rsquo;amuser.</p>
+<p>Je n&rsquo;utilise pas de framework dans le but de ressentir plus en profondeur leurs intérêts et me former au <em>PHP bas niveau</em>. Ce projet ne respecte pas encore le PSR-4 (architecture composants) mais c&rsquo;est prévu à terme.</p>
 <p>Le projet peut être divisé en 4 composants :</p>
 <ul>
-<li>une application web pour éditer des extraits vidéos, télécharger des vidéos à <em>cliper</em>, soummettre des références bibliographiques, modérer toutes les ressources proposées par des modérateurs</li>
+<li>une application web pour éditer des extraits vidéos, télécharger des vidéos à <em>cliper</em>, soummettre des fausses références bibliographiques, modérer toutes les ressources proposées par des modérateurs</li>
 <li>une application <em>core</em>, indépendante de l&rsquo;appli web, qui manipule les fichiers vidéos (clip, téléchargement), accessible directement depuis une CLI</li>
 <li>des bots Twitter qui vont venir poster des extraits issus de cette base de données à intervalle régulier</li>
 <li>une base de données relationnelle, notamment pour gérer les comptes utilisateurs, ainsi que leurs roles et leurs droits associés</li>
 </ul>
-<p>Quelques contraintes techniques du projet</p>
+<p>Quelques contraintes techniques du projet :</p>
 <ul>
-<li><a href="https://github.com/websealevel/archives-de-bureaulogie/blob/main/backlog.md#cahier-des-charges-pour-lencodage-vid%C3%A9oaudio-des-extraits=">cahier des charges</a> sur les formats audio et vidéo. Utilisation de ffmpeg</li>
+<li>un <a href="https://github.com/websealevel/archives-de-bureaulogie/blob/main/backlog.md#cahier-des-charges-pour-lencodage-vid%C3%A9oaudio-des-extraits=">cahier des charges</a> stricte sur les formats audio et vidéo (encodage, bitrate, normalisation, poids). Utilisation de ffmpeg</li>
 <li>le projet est servi par une combinaison <em>Nginx/php-fpm</em></li>
 <li>l&rsquo;appli web propose des processus de téléchargement en arrière-plan pour que ces derniers se poursuivent même lorsque l&rsquo;utilisateur est déconnecté et ferme son navigateur</li>
 <li>une intégration au design <em>brutaliste</em>, ouvertement daté pour coller à une esthétique de la fin des années 2000.</li>
