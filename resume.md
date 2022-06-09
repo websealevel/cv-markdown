@@ -149,9 +149,17 @@ Accessible [ici](https://cheztitine.fr)
 
 Ressources gratuites pour les développeur·euses, designeur·euses web, indépendant·es, bidouilleur·euses et autres intéressé·es
 
-Régulièrement mis à jour
+Régulièrement mis à jour.
 
 Accessible [ici](https://github.com/websealevel/awesome-fr)
+
+### Sous-titrage de conférences scientifiques/techniques en anglais
+
+Jusqu'ici j'ai sous-titré
+
+- des conférences données par le physicien R. Feynman à l'Université de Cornell en 1964 sur "Le caractère des lois physiques". Ces conférences, depuis leur rachat par Bill Gates, sont aujourd'hui largement disponibles sur le web. Malheureusement, il n'existait à ce jour aucune version intégralement sous-titrée en français pour faciliter l'accès aux francophones à ce contenu de grande qualité. [5 conférences sur 7 sous-titrées](https://www.youtube.com/watch?v=GSeSqqUV7_4&list=PLS3XEhTy6-AkS1j8JrHoJnkSrY31Bfddl). Mise à disposition des sous-titres sous licence Creative Commons sur [ce dépôt Github](https://github.com/galileo51galilei/feynman-subtitles).
+- la conférence [*The value of values*](https://www.youtube.com/watch?v=VJi1vOwu2SM&list=PLS3XEhTy6-AkS1j8JrHoJnkSrY31Bfddl&index=6) de Rich Hickey, sur les concepts fondamentaux des systèmes d'information
+- d'autres conférences sur des sujets liés à la programmation et à ses paradigmes à venir, notamment la superbe série de cours [Structure and Interpration of Computer Programs](https://www.youtube.com/watch?v=-J_xL4IGhJA&list=PLE18841CABEA24090) d'Abelson et Sussman
 
 ## Compétences techniques
 
