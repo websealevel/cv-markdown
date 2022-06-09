@@ -273,7 +273,7 @@ Le but est de proposer à des personnes créatives de s'emparer d'outils gratuit
 
 - fabrication de meubles en bois et métal (soudure)
 - [projets informatiques personnels](#projets-personnels) (génération procédurale, sites webs, écriture)
-- échanger avec d'autres développeur et designers sur des serveurs Discord
+- échanger avec d'autres développeurs et designers sur Internet (blogs, serveurs Discord)
 - pratique en amateur de la mosaïque
 - pratique de la guitare et du banjo irlandais
 - alpinisme
