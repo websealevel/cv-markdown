@@ -117,7 +117,7 @@ Diplôme obtenu à l'ENI de Nantes
 - architecture logicielle
 - conception de base de données relationnelles, modélisation UML
 - gestion de projet
-- projets collectifs et individuels
+- [projets collectifs et individuels](#eni-nantes-projets-informatiques-collectifs-2019----2020)
 
 
 ### <span>Master 1 et 2 : "Modélisation spécialité physique des systèmes complexes"- Recherche </span> <span>2011 -- 2013</span>
@@ -129,6 +129,30 @@ Diplôme obtenu à l'ENI de Nantes
 
 ## Projets informatiques personnels
 
+### [Développement, maintenance, et administration d'un blog de recettes de cuisine](https://cheztitine.fr)
+
+Projet de formation réalisé durant ma première année en agence. Cadeau destiné à un proche.
+
+Blog participatif pour échanger des recettes de cuisine, en toute simplicité. Le site est accessible en lecture à tout le monde, en écriture (publication de recettes) réservé aux membres.
+
+- développement complet (back et front) d'un thème WordPress responsive (PHP, JS, CSS, HTML). 
+- développement d'un champ repeater côté admin utilisant AJAX et l'API REST de WordPress (en m'inspirant de modèles trouvés sur Dribble)
+- navigation étendue sur mobile
+- maintenance et mise à disposition d'une documentation pour rendre le site accessible (pour les utilisateurs en difficulté avec les outils et procédures informatiques usuels)
+- instauration d'une charte.
+- environnement de développement Docker, déploiement et mise en prod
+- sécurité : gestion des rôles et des privilèges associés, firewall 
+
+Accessible [ici](https://cheztitine.fr)
+
+### [Maintenance d'un dépôt de ressources *gratuites* pour le web](https://github.com/websealevel/awesome-fr)
+
+Ressources gratuites pour les développeur·euses, designeur·euses web, indépendant·es, bidouilleur·euses et autres intéressé·es
+
+Régulièrement mis à jour
+
+Accessible [ici](https://github.com/websealevel/awesome-fr)
+
 ## Compétences techniques
 
 ### Développement web
@@ -138,7 +162,7 @@ Diplôme obtenu à l'ENI de Nantes
 - JavaScript (Vue.js), Typescript (sur des petits projets, développement d'un starter pack TS avec webpack), Svelte à venir
 - JEE
 - .NET
-- Elm (initiation)
+- Elm (au balbutiement)
 
 ### Divers
 
@@ -185,12 +209,13 @@ Diplôme obtenu à l'ENI de Nantes
 - protocoles HTTP et TCP/IP
 - l'architecture de l'information
 - la génération procédurale (et ses limites)
+- la programmation fonctionelle
 
 ## Savoir être
 
 - communication
 - motivée, rigoureuse
-- maitrise de l'anglais
+- maitrise de l'anglais écrit et oral
 - capacités rédactionelles
 - esprit d'équipe
 - esprit créatif
@@ -201,6 +226,7 @@ Diplôme obtenu à l'ENI de Nantes
 
 - fabrication de meubles en bois et métal (soudure)
 - projets informatiques personnels (génération procédurale, sites webs)
+- échanger avec d'autres développeur et designers sur des serveurs Discord
 - pratique en amateur de la mosaïque
 - pratique de la guitare et du banjo irlandais
 - alpinisme
