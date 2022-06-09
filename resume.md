@@ -56,7 +56,7 @@ Je suis en contact avec des structures locales pour animer des ateliers d'assist
 
 Je compte également mener en parallèle des projets de publication
 
-- en contact avec Alex Miller (Cognitect) et Hiram Madelaine (Eloquent Logic) pour travailler sur la traduction et la transcription de 7 conférences de Rich Hickey en français à destination des francophones.
+- en contact avec Alex Miller (Cognitect, Clojure) et Hiram Madelaine (Eloquent Logic, gérant du Meetup de Clojure de Paris) pour travailler sur la traduction et la transcription de 7 conférences de [Rich Hickey](https://en.wikipedia.org/wiki/Rich_Hickey) en français à destination des francophones.
 - proposition de ré-édition de *La Nature de la Physique* de Richard Feynman, publié aux éditions du Point. Projet en cours de rédaction, soumis prochainement à Farhang Radjaï (Directeur CNRS) et Étienne Guyon (Physicien français) puis à l'éditeur
 
 ##### Prestations à venir
