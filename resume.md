@@ -13,6 +13,8 @@ line. It is intended to be used for contact details -->
 is intended to be used for a short summary. -->
 Développeur web / formateur freelance. Aspire également à travailler un jour en lien avec le monde de l'édition IT
 
+<small>Ce CV a été écrit en Markdown, en utilisant le projet [resume.md](https://github.com/mikepqr), maintenu par Mike Lee Williams</small>
+
 ## Expériences professionnelles
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
@@ -247,6 +249,7 @@ Le but est de proposer à des personnes créatives de s'emparer d'outils gratuit
 - Perl
 - Elm
 - Go
+- DocBook et XSL pour écrire des documents narratifs (articles, livres)
 
 ### Sujets qui m'intéressnet
 
@@ -281,4 +284,4 @@ Le but est de proposer à des personnes créatives de s'emparer d'outils gratuit
 - enseignement et vulgarisation
 - le social
 - écrire (en markdown)
-- les livres techniques sur l'informatique
+- les livres techniques sur l'informatique et le design web
