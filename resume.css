@@ -3,11 +3,11 @@ body {
     background: #EEEEEE;
     font: 1.1em "Times New Roman";
     line-height: 1.2;
-    margin: 40px 0;
+    margin: 120px 0;
 }
 #resume {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 700px;
     padding: 40px 60px;
     background: #FFFFFF;
     border: 1px solid #CCCCCC;
@@ -17,8 +17,8 @@ body {
 h1 {
     text-transform: uppercase;
     text-align: center;
-    font-size: 200%;
-    margin: 0;
+    font-size: 300%;
+    margin: 60px;
     padding: 0;
 }
 h2 {
@@ -66,13 +66,13 @@ h1 + ul + p {
 }
 @media print {
     body {
-        font-size: 10pt;
+        font-size: 11pt;
         margin: 0;
         padding: 0;
         background: none;
     }
     #resume {
-        margin: 0;
+        margin: 1.1cm;
         padding: 0;
         border: 0px;
         background: none;
@@ -82,29 +82,47 @@ h1 + ul + p {
     /* Make links black in PDF */
     /* Move this outside the print block to apply this in HTML too */
     a, a:link, a:visited, a:hover {
-        color: #000000;
+        color: black;
         text-decoration: underline;
+    }
+
+    h1, h2{
+        margin: 0.8cm 0;
+    }
+
+    h3{
+        margin: 0.4cm 0;
+    }
+
+    li{
+        margin-bottom: 0.1cm;
     }
 }
 @page {
     /* Change margins and paper size of PDF */
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
     size: letter;
-    margin: 0.5in 0.8in;
+    margin: 0.8in 0.8in;
 }
 @media screen and (max-width: 800px) {
     body {
         font-size: 16pt;
-        margin: 0;
+        margin: 2em;
         padding: 0;
         background: #FFFFFF !important;
     }
     #resume {
-        margin: 0;
+        margin: 2em;
         padding: 1em;
         border: 0px;
         background: none;
         box-shadow: none;
         -webkit-box-shadow: none;
     }
+
+    h1{
+        margin: 120px;
+    }
 }
+
+

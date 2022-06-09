@@ -19,7 +19,7 @@ Développeur web / formateur free-lance. Aspire également à travailler un jour
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
-### <span>Développeur/formateur free-lance</span> <span>2022</span>
+### <span>Développeur et formateur freelance</span> <span>2022</span>
 
 
 #### Mes activités
@@ -28,15 +28,14 @@ hand -->
 
 Je m'installe à mon compte pour offrir des prestations de développement/conception
 
-- Développement de sites, applications web
+- Développement de sites, applications web. E-commerce, gestion de systèmes d'utilisateurs, connexion de sites à des services externes
 - Recueil des besoins utilisateurs. Formalisation des besoins.  Conception base de données relationnelle, modélisation de la logique métier
-- Design ou intégration (*content driven* design)
+- Design (au besoin appel à un designer freelance) ou intégration (*content driven* design)
 - Légèreté et performance, pour servir des pages web de manière optimale (faible bande passante, vieilles machines, etc.). La *trouvabilité* commence par l'accessibilité et la rapidé de chargement
 - Sécurité et respect des bonnes pratiques
 - WordPress : développement de thèmes sur mesure, extension de thèmes existants, développement de plugins. Usage de plugins minimum
 - Utilisation d'outils matures et maintenus
-- Paiement en ligne, gestion de systèmes d'utilisateurs, connexion de sites à des services externes
-- Approche incrémentale, suivre pas à pas l'évolution du projet
+- Approche incrémentale, suivi pas à pas l'évolution du projet
 - SEO
 - Migration de sites WordPress, pointage DNS
 - Maintenance: mise à jour, sysadmin, correction de bugs
@@ -79,7 +78,7 @@ Je compte également mener en parallèle des projets de publication
 - développement d'une api REST sécurisée pour une application web sur une stack Vue.js/Wordpress REST API (CMS Serverless)
 - préparation à la certification Zend PHP (pas encore passée)
 
-### <span>Clikilix (Halle 6 Ouest, Nantes), développement web front-end</span> <span>2020 (2mois)</span>
+### <span>Clikilix (Halle 6 Ouest, Nantes), développeur web front-end</span> <span>2020 (2mois)</span>
 
 Stage de formation
 
@@ -175,7 +174,7 @@ Accessible [ici](https://github.com/websealevel/awesome-fr)
 
 Jusqu'ici j'ai sous-titré
 
-- des conférences données par le physicien R. Feynman à l'Université de Cornell en 1964 sur "Le caractère des lois physiques". Ces conférences, depuis leur rachat par Bill Gates, sont aujourd'hui largement disponibles sur le web. Malheureusement, il n'existait à ce jour aucune version intégralement sous-titrée en français pour faciliter l'accès aux francophones à ce contenu de grande qualité. [5 conférences sur 7 sous-titrées](https://www.youtube.com/watch?v=GSeSqqUV7_4&list=PLS3XEhTy6-AkS1j8JrHoJnkSrY31Bfddl). Mise à disposition des sous-titres sous licence Creative Commons sur [ce dépôt Github](https://github.com/galileo51galilei/feynman-subtitles).
+- des conférences données par le physicien [R. Feynman](https://fr.wikipedia.org/wiki/Richard_Feynman) à l'Université de Cornell en 1964 sur *Le caractère des lois physiques*. Ces conférences sont aujourd'hui largement disponibles sur le web. Malheureusement, il n'existait à ce jour aucune version intégralement sous-titrée en français pour faciliter l'accès aux francophones à ce contenu de grande qualité. [5 conférences sur 7 sous-titrées](https://www.youtube.com/watch?v=GSeSqqUV7_4&list=PLS3XEhTy6-AkS1j8JrHoJnkSrY31Bfddl). Mise à disposition des sous-titres sous licence Creative Commons sur [ce dépôt Github](https://github.com/galileo51galilei/feynman-subtitles).
 - la conférence [*The value of values*](https://www.youtube.com/watch?v=VJi1vOwu2SM&list=PLS3XEhTy6-AkS1j8JrHoJnkSrY31Bfddl&index=6) de Rich Hickey, sur les concepts fondamentaux des systèmes d'information
 - d'autres conférences sur des sujets liés à la programmation et à ses paradigmes à venir, notamment la superbe série de cours [Structure and Interpration of Computer Programs](https://www.youtube.com/watch?v=-J_xL4IGhJA&list=PLE18841CABEA24090) d'Abelson et Sussman
 

@@ -8,11 +8,11 @@ body {
     background: #EEEEEE;
     font: 1.1em "Times New Roman";
     line-height: 1.2;
-    margin: 40px 0;
+    margin: 120px 0;
 }
 #resume {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 700px;
     padding: 40px 60px;
     background: #FFFFFF;
     border: 1px solid #CCCCCC;
@@ -22,8 +22,8 @@ body {
 h1 {
     text-transform: uppercase;
     text-align: center;
-    font-size: 200%;
-    margin: 0;
+    font-size: 300%;
+    margin: 60px;
     padding: 0;
 }
 h2 {
@@ -71,13 +71,13 @@ h1 + ul + p {
 }
 @media print {
     body {
-        font-size: 10pt;
+        font-size: 11pt;
         margin: 0;
         padding: 0;
         background: none;
     }
     #resume {
-        margin: 0;
+        margin: 1.1cm;
         padding: 0;
         border: 0px;
         background: none;
@@ -87,32 +87,50 @@ h1 + ul + p {
     /* Make links black in PDF */
     /* Move this outside the print block to apply this in HTML too */
     a, a:link, a:visited, a:hover {
-        color: #000000;
+        color: black;
         text-decoration: underline;
+    }
+
+    h1, h2{
+        margin: 0.8cm 0;
+    }
+
+    h3{
+        margin: 0.4cm 0;
+    }
+
+    li{
+        margin-bottom: 0.1cm;
     }
 }
 @page {
     /* Change margins and paper size of PDF */
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
     size: letter;
-    margin: 0.5in 0.8in;
+    margin: 0.8in 0.8in;
 }
 @media screen and (max-width: 800px) {
     body {
         font-size: 16pt;
-        margin: 0;
+        margin: 2em;
         padding: 0;
         background: #FFFFFF !important;
     }
     #resume {
-        margin: 0;
+        margin: 2em;
         padding: 1em;
         border: 0px;
         background: none;
         box-shadow: none;
         -webkit-box-shadow: none;
     }
+
+    h1{
+        margin: 120px;
+    }
 }
+
+
 
 </style>
 </head>
@@ -136,20 +154,19 @@ is intended to be used for a short summary. -->
 <h2>Expériences professionnelles</h2>
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
-<h3><span>Développeur/formateur free-lance</span> <span>2022</span></h3>
+<h3><span>Développeur et formateur freelance</span> <span>2022</span></h3>
 <h4>Mes activités</h4>
 <h5>Développement web</h5>
 <p>Je m&rsquo;installe à mon compte pour offrir des prestations de développement/conception</p>
 <ul>
-<li>Développement de sites, applications web</li>
+<li>Développement de sites, applications web. E-commerce, gestion de systèmes d&rsquo;utilisateurs, connexion de sites à des services externes</li>
 <li>Recueil des besoins utilisateurs. Formalisation des besoins.  Conception base de données relationnelle, modélisation de la logique métier</li>
-<li>Design ou intégration (<em>content driven</em> design)</li>
+<li>Design (au besoin appel à un designer freelance) ou intégration (<em>content driven</em> design)</li>
 <li>Légèreté et performance, pour servir des pages web de manière optimale (faible bande passante, vieilles machines, etc.). La <em>trouvabilité</em> commence par l&rsquo;accessibilité et la rapidé de chargement</li>
 <li>Sécurité et respect des bonnes pratiques</li>
 <li>WordPress : développement de thèmes sur mesure, extension de thèmes existants, développement de plugins. Usage de plugins minimum</li>
 <li>Utilisation d&rsquo;outils matures et maintenus</li>
-<li>Paiement en ligne, gestion de systèmes d&rsquo;utilisateurs, connexion de sites à des services externes</li>
-<li>Approche incrémentale, suivre pas à pas l&rsquo;évolution du projet</li>
+<li>Approche incrémentale, suivi pas à pas l&rsquo;évolution du projet</li>
 <li>SEO</li>
 <li>Migration de sites WordPress, pointage DNS</li>
 <li>Maintenance: mise à jour, sysadmin, correction de bugs</li>
@@ -189,7 +206,7 @@ hand -->
 <li>développement d&rsquo;une api REST sécurisée pour une application web sur une stack Vue.js/Wordpress REST API (CMS Serverless)</li>
 <li>préparation à la certification Zend PHP (pas encore passée)</li>
 </ul>
-<h3><span>Clikilix (Halle 6 Ouest, Nantes), développement web front-end</span> <span>2020 (2mois)</span></h3>
+<h3><span>Clikilix (Halle 6 Ouest, Nantes), développeur web front-end</span> <span>2020 (2mois)</span></h3>
 <p>Stage de formation</p>
 <ul>
 <li>développement d&rsquo;une application web en Vue.js : développement de pages, composants, de patterns pour découpler le front des modèles en base</li>
@@ -266,7 +283,7 @@ hand -->
 <h3><a href="https://www.youtube.com/watch?v=GSeSqqUV7_4&amp;list=PLS3XEhTy6-AkS1j8JrHoJnkSrY31Bfddl">Sous-titrage de conférences scientifiques/techniques en anglais</a></h3>
 <p>Jusqu&rsquo;ici j&rsquo;ai sous-titré</p>
 <ul>
-<li>des conférences données par le physicien R. Feynman à l&rsquo;Université de Cornell en 1964 sur &ldquo;Le caractère des lois physiques&rdquo;. Ces conférences, depuis leur rachat par Bill Gates, sont aujourd&rsquo;hui largement disponibles sur le web. Malheureusement, il n&rsquo;existait à ce jour aucune version intégralement sous-titrée en français pour faciliter l&rsquo;accès aux francophones à ce contenu de grande qualité. <a href="https://www.youtube.com/watch?v=GSeSqqUV7_4&amp;list=PLS3XEhTy6-AkS1j8JrHoJnkSrY31Bfddl">5 conférences sur 7 sous-titrées</a>. Mise à disposition des sous-titres sous licence Creative Commons sur <a href="https://github.com/galileo51galilei/feynman-subtitles">ce dépôt Github</a>.</li>
+<li>des conférences données par le physicien <a href="https://fr.wikipedia.org/wiki/Richard_Feynman">R. Feynman</a> à l&rsquo;Université de Cornell en 1964 sur <em>Le caractère des lois physiques</em>. Ces conférences sont aujourd&rsquo;hui largement disponibles sur le web. Malheureusement, il n&rsquo;existait à ce jour aucune version intégralement sous-titrée en français pour faciliter l&rsquo;accès aux francophones à ce contenu de grande qualité. <a href="https://www.youtube.com/watch?v=GSeSqqUV7_4&amp;list=PLS3XEhTy6-AkS1j8JrHoJnkSrY31Bfddl">5 conférences sur 7 sous-titrées</a>. Mise à disposition des sous-titres sous licence Creative Commons sur <a href="https://github.com/galileo51galilei/feynman-subtitles">ce dépôt Github</a>.</li>
 <li>la conférence <a href="https://www.youtube.com/watch?v=VJi1vOwu2SM&amp;list=PLS3XEhTy6-AkS1j8JrHoJnkSrY31Bfddl&amp;index=6"><em>The value of values</em></a> de Rich Hickey, sur les concepts fondamentaux des systèmes d&rsquo;information</li>
 <li>d&rsquo;autres conférences sur des sujets liés à la programmation et à ses paradigmes à venir, notamment la superbe série de cours <a href="https://www.youtube.com/watch?v=-J_xL4IGhJA&amp;list=PLE18841CABEA24090">Structure and Interpration of Computer Programs</a> d&rsquo;Abelson et Sussman</li>
 </ul>
