@@ -272,7 +272,7 @@ Le but est de proposer à des personnes créatives de s'emparer d'outils gratuit
 ## Centres d'intérêt
 
 - fabrication de meubles en bois et métal (soudure)
-- projets informatiques personnels (génération procédurale, sites webs)
+- [projets informatiques personnels](#projets-personnels) (génération procédurale, sites webs, écriture)
 - échanger avec d'autres développeur et designers sur des serveurs Discord
 - pratique en amateur de la mosaïque
 - pratique de la guitare et du banjo irlandais
@@ -281,3 +281,4 @@ Le but est de proposer à des personnes créatives de s'emparer d'outils gratuit
 - enseignement et vulgarisation
 - le social
 - écrire (en markdown)
+- les livres techniques sur l'informatique
