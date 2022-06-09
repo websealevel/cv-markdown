@@ -11,8 +11,7 @@ line. It is intended to be used for contact details -->
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
-Développeur web freelance, formateur à venir, aspire également à travailler un dans le monde de l'édition IT
-
+Développeur web / formateur freelance. Aspire également à travailler un jour en lien avec le monde de l'édition IT
 
 ## Expériences professionnelles
 
