@@ -179,7 +179,12 @@ Le projet peut être divisé en 4 composants :
 - des bots Twitter qui vont venir poster des extraits issus de cette base de données à intervalle régulier
 - une base de données relationnelle, notamment pour gérer les comptes utilisateurs, ainsi que leurs roles et leurs droits associés
 
-Le projet est servi par une combinaison *Nginx/php-fpm*. Il propose des processus de téléchargement en arrière-plan pour que ces derniers se poursuivent même lorsque l'utilisateur est déconnecté et ferme son navigateur. J'aimerais également lui donner un design brutaliste, ouvertement daté pour coller à une esthétique de la fin des années 2000.
+Quelques contraintes techniques du projet
+
+- [cahier des charges](https://github.com/websealevel/archives-de-bureaulogie/blob/main/backlog.md#cahier-des-charges-pour-lencodage-vid%C3%A9oaudio-des-extraits=) sur les formats audio et vidéo. Utilisation de ffmpeg
+- le projet est servi par une combinaison *Nginx/php-fpm*
+- l'appli web propose des processus de téléchargement en arrière-plan pour que ces derniers se poursuivent même lorsque l'utilisateur est déconnecté et ferme son navigateur
+- une intégration au design *brutaliste*, ouvertement daté pour coller à une esthétique de la fin des années 2000.
 
 L'idée est ensuite de livrer cette application à la communauté pour qu'elle s'en serve et de permettre que le code source soit réutilisé pour d'autres projets. Le projet sera maintenu par un travail collaboratif.
 

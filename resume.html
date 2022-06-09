@@ -270,7 +270,13 @@ hand -->
 <li>des bots Twitter qui vont venir poster des extraits issus de cette base de données à intervalle régulier</li>
 <li>une base de données relationnelle, notamment pour gérer les comptes utilisateurs, ainsi que leurs roles et leurs droits associés</li>
 </ul>
-<p>Le projet est servi par une combinaison <em>Nginx/php-fpm</em>. Il propose des processus de téléchargement en arrière-plan pour que ces derniers se poursuivent même lorsque l&rsquo;utilisateur est déconnecté et ferme son navigateur. J&rsquo;aimerais également lui donner un design brutaliste, ouvertement daté pour coller à une esthétique de la fin des années 2000.</p>
+<p>Quelques contraintes techniques du projet</p>
+<ul>
+<li><a href="https://github.com/websealevel/archives-de-bureaulogie/blob/main/backlog.md#cahier-des-charges-pour-lencodage-vid%C3%A9oaudio-des-extraits=">cahier des charges</a> sur les formats audio et vidéo. Utilisation de ffmpeg</li>
+<li>le projet est servi par une combinaison <em>Nginx/php-fpm</em></li>
+<li>l&rsquo;appli web propose des processus de téléchargement en arrière-plan pour que ces derniers se poursuivent même lorsque l&rsquo;utilisateur est déconnecté et ferme son navigateur</li>
+<li>une intégration au design <em>brutaliste</em>, ouvertement daté pour coller à une esthétique de la fin des années 2000.</li>
+</ul>
 <p>L&rsquo;idée est ensuite de livrer cette application à la communauté pour qu&rsquo;elle s&rsquo;en serve et de permettre que le code source soit réutilisé pour d&rsquo;autres projets. Le projet sera maintenu par un travail collaboratif.</p>
 <p>Le projet est en cours de développement.</p>
 <h3>Rédaction d&rsquo;articles à destination des développeurs et des créatif· ves</h3>
