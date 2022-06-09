@@ -11,7 +11,7 @@ line. It is intended to be used for contact details -->
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
-Développeur web / formateur freelance. Aspire également à travailler un jour en lien avec le monde de l'édition IT
+Développeur web / formateur free-lance. Aspire également à travailler un jour en lien avec le monde de l'édition IT.
 
 <small>Ce CV a été écrit en Markdown, en utilisant le projet [resume.md](https://github.com/mikepqr), maintenu par Mike Lee Williams</small>
 
@@ -19,7 +19,7 @@ Développeur web / formateur freelance. Aspire également à travailler un jour 
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
-### <span>Développeur/formateur freelance</span> <span>2022</span>
+### <span>Développeur/formateur free-lance</span> <span>2022</span>
 
 
 #### Mes activités
@@ -29,17 +29,17 @@ hand -->
 Je m'installe à mon compte pour offrir des prestations de développement/conception
 
 - Développement de sites, applications web
-- Recueil des besoins utilisateurs. Formalisation des besoins. Conception base de données relationnelle, modélisation de la logique métier
+- Recueil des besoins utilisateurs. Formalisation des besoins.  Conception base de données relationnelle, modélisation de la logique métier
 - Design ou intégration (*content driven* design)
-- Légèreté et performance, pour servir des pages webs de manière optimale (faible bande passante, vieilles machines etc.). La *findability* commence par l'accessibilité et la rapidé de chargement
+- Légèreté et performance, pour servir des pages web de manière optimale (faible bande passante, vieilles machines, etc.). La *trouvabilité* commence par l'accessibilité et la rapidé de chargement
 - Sécurité et respect des bonnes pratiques
 - WordPress : développement de thèmes sur mesure, extension de thèmes existants, développement de plugins. Usage de plugins minimum
 - Utilisation d'outils matures et maintenus
-- Paiement en ligne, gestion de systèmes d'utilisateurs, connexion de sites a des services externes
-- Approche incrementale, suivre pas a pas l'évolution du projet
+- Paiement en ligne, gestion de systèmes d'utilisateurs, connexion de sites à des services externes
+- Approche incrémentale, suivre pas à pas l'évolution du projet
 - SEO
-- migration WordPress, pointage DNS
-- maintenance: mise à jour, sysadmin, correction de bugs
+- Migration de sites WordPress, pointage DNS
+- Maintenance: mise à jour, sysadmin, correction de bugs
 
 ##### Formateur
 
@@ -50,8 +50,6 @@ Je vais également intervenir en tant que formateur sur les formations suivantes
 - Sécuriser les applications PHP
 - Wordpress
 
-Je suis en contact avec des structures locales pour animer des ateliers d'assistance informatique lors d'ateliers où des machines sont mises à disposition gratuitement d'un public nécessitant du support technique.
-
 ##### Projets de publication (en parallèle)
 
 Je compte également mener en parallèle des projets de publication
@@ -61,9 +59,9 @@ Je compte également mener en parallèle des projets de publication
 
 ##### Prestations à venir
 
-- développement d'un site sur mesure pour [l'atelier du bois d'or](https://atelierduboisdor.fr/), atelier de dorure et d'ébenisterie à Rennes. Site vitrine, blog, contact et mise en avant de projets.
-- développement d'un site pour l'association [CroqSep](https://docteurparadi.com/croqsep). Vitrine, gestion des ateliers (agenda, inscriptions), newsletter, gestion des adhésions (paiement en ligne, génération de facture et du reçu fiscal), contenu réservé aux adhérants, mise à disposition des compte-rendus d'AG
-- développement du site de [Roland Michon](https://www.bedetheque.com/auteur-46127-BD-Michon-Roland.html), réalisateur, producteur, ex enseignant universitaire en esthétique du cinéma et auteur de deux bandes dessinées. Le but est de lui créer un site pour regrouper tous ses travaux, les archiver etc.
+- développement d'un site sur mesure pour [l'atelier du bois d'or](https://atelierduboisdor.fr/), atelier de dorure et d'ébénisterie à Rennes. Site vitrine, blog, contact et mise en avant de projets.
+- développement d'un site pour l'association [CroqSep](https://docteurparadi.com/croqsep). Vitrine, gestion des ateliers (agenda, inscriptions), newsletter, gestion des adhésions (paiement en ligne, génération de facture et du reçu fiscal), contenu réservé aux adhérents, mise à disposition des comptes-rendus d'AG
+- développement du site de [Roland Michon](https://www.bedetheque.com/auteur-46127-BD-Michon-Roland.html), réalisateur, producteur, ex-enseignant universitaire en esthétique du cinéma et auteur de deux bandes dessinées. Le but est de lui créer un site pour regrouper tous ses travaux, les archiver, etc.
 
 
 ### <span>Studio Goliath, développeur web</span> <span>2020 -- 2021</span>
@@ -71,13 +69,13 @@ Je compte également mener en parallèle des projets de publication
 - développement et maintenance de thèmes et de plugins Wordpress
 - connexion d'une application web à l'API de Chorus Pro pour le système de facturation
 - documentation, refactorisation d'applications d'e-commerce legacy
-- mise en production et migration de sites webs
+- mise en production et migration de sites web
 - intégration (SCSS/JS/Jquery)
 - développement de cartes interactives avec leaflet et d'un système de mise en cache côté serveur
 - connexion d'un site web au SIT Tourinsoft
 - recueil des besoins clients et formalisation (rendez-vous clients)
 - développement d'un plugin de connexion au CRM Avizi déployé sur plusieurs sites d'Office de Tourisme
-- recueil et implémentation d'un protocole public certifié pour calculer l'impact environnement d'un meublé de tourisme
+- recueil et implémentation d'un protocole public certifié pour calculer l'impact environnemental d'un meublé de tourisme
 - développement d'une api REST sécurisée pour une application web sur une stack Vue.js/Wordpress REST API (CMS Serverless)
 - préparation à la certification Zend PHP (pas encore passée)
 
@@ -93,7 +91,7 @@ Stage de formation
 ### <span>ENI (Nantes) Projets informatiques collectifs</span> <span>2019 -- 2020</span>
 
 - développement d’un site d’enchères : application web organisée en couches (Java EE, SQL Server)
-- analyse, conception et développement d’un site d’organisation événements d’entreprises (Symfony 5, MySQL, JS)
+- analyse, conception et développement d’un site d’organisation événement d’entreprises (Symfony 5, MySQL, JS)
 - projet libre: prototype d'un réseau social avec contenu interactif généré par les interactions entre utilisateurs (Symfony5, MySQL, JS, library p5.js)
 
 
@@ -109,21 +107,21 @@ Stage de formation
 - participation à l'organisation d'une conférence internationale à Montpellier (Powder and Grains 2017)
 
 
-### <span>Doctorat en physique/mécanique, Laboratoire de Mécanique et Génie Civil (Montpellier)</span> <span>2013 -- 2016</span>
+### <span>Doctorat en physique/mécanique, Laboratoire de Mécanique et Génie Civil (Montpellier)</span> <span>2013 -- 2016</span>
 
-- modélisation et simulation numériques d'écoulement granulaires (C++, fortran)
+- modélisation et simulation numériques d'écoulement granulaire (C++, fortran)
 - analyse de données
-- communication: publication, conférences internationales en anglais, séminaires
+- communication : publication, conférences internationales en anglais, séminaires
 - tuteur de projets informatiques, encadrement d'étudiants de Polytech
-- organisation et animation d'exposition scientifique *[Toucher,casser,couler](https://coulomb.umontpellier.fr/Vernissage-de-l-exposition-Toucher)* d'Etienne Guyon à Montpellier, tout public
+- organisation et animation d'exposition scientifique *[Toucher,casser,couler](https://coulomb.umontpellier.fr/Vernissage-de-l-exposition-Toucher)* d'Étienne Guyon à Montpellier, tout public
 
 ### <span>Stage de recherche sur la simulation de bancs de poissons (Toulouse)</span> <span>2013</span>
 
 Stage de Master 2 au laboratoire de Cognition Animale de l'université Paul Sabatier (Toulouse)
 
-- modélisation et simulation de bancs de poissons (C++, fortran, bash, awk)
+- modélisation et simulation de bancs de poissons (C++, Fortran, bash, awk)
 - utilisation d'un cluster pour les simulations
-- analyse statistiques des données
+- analyse statistique des données
 - publication des résultats dans [Journal of the Royal Society Interface](https://royalsocietypublishing.org/doi/10.1098/rsif.2014.1362)
 
 
@@ -143,7 +141,7 @@ Diplôme obtenu à l'ENI de Nantes
 ### <span>Master 1 et 2 : "Modélisation spécialité physique des systèmes complexes"- Recherche </span> <span>2011 -- 2013</span>
 
 - formation en programmation (C++, POO, Perl, Javascript) et formation approfondie de l'analyse numérique
-- apprentissage de la modélisation de systèmes (physiques, économiques, biologiques, ...)
+- apprentissage de la modélisation de systèmes (physiques, économiques, biologiques ...)
 - physique des systèmes non linéaires
 
 
@@ -151,7 +149,7 @@ Diplôme obtenu à l'ENI de Nantes
 
 ### [Développement, maintenance, et administration d'un blog de recettes de cuisine](https://cheztitine.fr)
 
-Projet de formation réalisé durant ma première année en agence. Cadeau destiné à un proche.
+Projet de formation réalisé sur mon temps libre, durant ma première année en agence. Cadeau destiné à un proche.
 
 Blog participatif pour échanger des recettes de cuisine, en toute simplicité. Le site est accessible en lecture à tout le monde, en écriture (publication de recettes) réservé aux membres.
 
@@ -188,7 +186,7 @@ J'ai mis à disposition [un dépôt](https://github.com/websealevel/starterpack-
 
 ### [Développement d'une plateforme d'édition collaborative à destination d'une communauté](https://github.com/websealevel/archives-de-bureaulogie)
 
-[Les archives de bureaulogie](https://archives-de-bureaulogie.fr/) est un projet qui a pour ambition de promouvoir la bureaulogie en proposant une plateforme collaborative de publication d'extraits vidéos du [tribunal des bureaux](https://www.youtube.com/watch?v=YglE-FnSd3g&list=PLDN-m4HWH8MBKJLYIK-80qJBBkVJbPo9p) d'ackboo, journaliste chez CanardPC,  ainsi que de diffusion de références bibliographiques pour approfondir le sujet.
+[Les archives de bureaulogie](https://archives-de-bureaulogie.fr/) est un projet qui a pour ambition de promouvoir la bureaulogie en proposant une plateforme collaborative de publication d'extraits vidéo du [tribunal des bureaux](https://www.youtube.com/watch?v=YglE-FnSd3g&list=PLDN-m4HWH8MBKJLYIK-80qJBBkVJbPo9p) d'ackboo, journaliste chez CanardPC,  ainsi que de diffusion de références bibliographiques pour approfondir le sujet.
 
 Il sert également de prétexte pour construire un outil en *vanilla PHP* pour se former (notamment à la sécurité) et surtout pour s'amuser.
 
@@ -196,10 +194,10 @@ Je n'utilise pas de framework dans le but de ressentir plus en profondeur leurs 
 
 Le projet peut être divisé en 4 composants :
 
-- une application web pour éditer des extraits vidéos, télécharger des vidéos à *cliper*, soummettre des fausses références bibliographiques, modérer toutes les ressources proposées par des modérateurs
-- une application *core*, indépendante de l'appli web, qui manipule les fichiers vidéos (clip, téléchargement), accessible directement depuis une CLI
+- une application web pour éditer des extraits vidéo, télécharger des vidéos à *cliper*, soumettre de fausses références bibliographiques, modérer toutes les ressources proposées par des modérateurs
+- une application *core*, indépendante de l'appli web, qui manipule les fichiers vidéo (clip, téléchargement), accessible directement depuis une CLI
 - des bots Twitter qui vont venir poster des extraits issus de cette base de données à intervalle régulier
-- une base de données relationnelle, notamment pour gérer les comptes utilisateurs, ainsi que leurs roles et leurs droits associés
+- une base de données relationnelle, notamment pour gérer les comptes utilisateurs, ainsi que leurs rôles et leurs droits associés
 
 Quelques contraintes techniques du projet :
 
@@ -216,9 +214,9 @@ Le projet est en cours de développement.
 
 J'essaie de me mettre à écrire des articles à destination des développeurs et des créatif· ves. 
 
-J'ai écrit [cet article](https://pschuhmacher.gumroad.com/l/writing-workflow), sur une proposition d'environnement et un processur éditorial pour toutes les activités d'écriture. 
+J'ai écrit [cet article](https://pschuhmacher.gumroad.com/l/writing-workflow), sur une proposition d'environnement et un processus éditorial pour toutes les activités d'écriture. 
 
-Le but est de proposer à des personnes créatives de s'emparer d'outils gratuits et open-source comme le Markdown, git et GitHub pour se créer un environnement d'écriture sain et pratique, notamment pour des travaux collaboratifs. Je m'essaie au passage à la monétisation, et je compte traduire cet article en anglais prochainement.
+Le but est de proposer à des personnes créatives de s'emparer d'outils gratuits et open source comme le Markdown, git et GitHub pour se créer un environnement d'écriture sain et pratique, notamment pour des travaux collaboratifs. Je m'essaie au passage à la monétisation, et je compte traduire cet article en anglais prochainement.
 
 ## Compétences techniques
 
@@ -236,7 +234,7 @@ Le but est de proposer à des personnes créatives de s'emparer d'outils gratuit
 - Bash
 - git
 - C++
-- environnement linux
+- environnement Linux
 - Docker et docker-compose (que j'utilise en environnement de développement)
 - gulp et webpack
 - Standard XML et associés
@@ -269,7 +267,7 @@ Le but est de proposer à des personnes créatives de s'emparer d'outils gratuit
 - Go
 - DocBook et XSL pour écrire des documents narratifs (articles, livres)
 
-### Sujets qui m'intéressnet
+### Sujets qui m'intéressent
 
 - l'architecture logicielle
 - le TDD
@@ -277,14 +275,14 @@ Le but est de proposer à des personnes créatives de s'emparer d'outils gratuit
 - protocoles HTTP et TCP/IP
 - l'architecture de l'information
 - la génération procédurale (et ses limites)
-- la programmation fonctionelle
+- la programmation fonctionnelle
 
-## Savoir être
+## Savoir-être
 
 - communication
 - motivée, rigoureuse
-- maitrise de l'anglais écrit et oral
-- capacités rédactionelles
+- maîtrise de l'anglais écrit et oral
+- capacités rédactionnelles
 - esprit d'équipe
 - esprit créatif
 - parler en public
@@ -293,7 +291,7 @@ Le but est de proposer à des personnes créatives de s'emparer d'outils gratuit
 ## Centres d'intérêt
 
 - fabrication de meubles en bois et métal (soudure)
-- [projets informatiques personnels](#projets-personnels) (génération procédurale, sites webs, écriture)
+- [projets informatiques personnels](#projets-personnels) (génération procédurale, sites web, écriture)
 - échanger avec d'autres développeurs et designers sur Internet (blogs, serveurs Discord)
 - pratique en amateur de la mosaïque
 - pratique de la guitare et du banjo irlandais
@@ -301,5 +299,5 @@ Le but est de proposer à des personnes créatives de s'emparer d'outils gratuit
 - tennis
 - enseignement et vulgarisation
 - le social
-- écrire (en markdown)
+- écrire (en Markdown)
 - les livres techniques sur l'informatique et le design web
