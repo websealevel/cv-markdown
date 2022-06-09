@@ -258,6 +258,21 @@ hand -->
 <li>la conférence <a href="https://www.youtube.com/watch?v=VJi1vOwu2SM&amp;list=PLS3XEhTy6-AkS1j8JrHoJnkSrY31Bfddl&amp;index=6"><em>The value of values</em></a> de Rich Hickey, sur les concepts fondamentaux des systèmes d&rsquo;information</li>
 <li>d&rsquo;autres conférences sur des sujets liés à la programmation et à ses paradigmes à venir, notamment la superbe série de cours <a href="https://www.youtube.com/watch?v=-J_xL4IGhJA&amp;list=PLE18841CABEA24090">Structure and Interpration of Computer Programs</a> d&rsquo;Abelson et Sussman</li>
 </ul>
+<h3><a href="https://github.com/websealevel/starterpack-front-php8-postgresql-adminer">Développement et maintenance d&rsquo;un starterpack dockerisé</a></h3>
+<p>J&rsquo;ai mis à disposition <a href="https://github.com/websealevel/starterpack-front-php8-postgresql-adminer">un dépôt</a> afin de fabriquer, utiliser un starterpack dans un worflow <em>Docker multi-projets friendly</em>. Cet environnement utiliser Docker et traefick comme reverse-proxy pour se créer un environnement de développement local pratique, <em>machine-indépendant</em>.</p>
+<h3><a href="https://github.com/websealevel/archives-de-bureaulogie">Développement d&rsquo;une plateforme d&rsquo;édition collaborative à destination d&rsquo;une communauté</a></h3>
+<p><a href="https://archives-de-bureaulogie.fr/">Les archives de bureaulogie</a> est un projet qui a pour ambition de promouvoir la bureaulogie en proposant une plateforme collaborative de publication d&rsquo;extraits vidéos du <a href="https://www.youtube.com/watch?v=YglE-FnSd3g&amp;list=PLDN-m4HWH8MBKJLYIK-80qJBBkVJbPo9p">tribunal des bureaux</a> d&rsquo;ackboo, journaliste chez CanardPC,  ainsi que de diffusion de références bibliographiques pour approfondir le sujet.</p>
+<p>Il sert également de prétexte pour construire un outil en <em>vanilla PHP</em> pour se former (notamment à la sécurité) et surtout pour s&rsquo;amuser.</p>
+<p>Le projet peut être divisé en 4 composants :</p>
+<ul>
+<li>une application web pour éditer des extraits vidéos, télécharger des vidéos à <em>cliper</em>, soummettre des références bibliographiques, modérer toutes les ressources proposées par des modérateurs</li>
+<li>une application <em>core</em>, indépendante de l&rsquo;appli web, qui manipule les fichiers vidéos (clip, téléchargement), accessible directement depuis une CLI</li>
+<li>des bots Twitter qui vont venir poster des extraits issus de cette base de données à intervalle régulier</li>
+<li>une base de données relationnelle, notamment pour gérer les comptes utilisateurs, ainsi que leurs roles et leurs droits associés</li>
+</ul>
+<p>Le projet est servi par une combinaison <em>Nginx/php-fpm</em>. Il propose des processus de téléchargement en arrière-plan pour que ces derniers se poursuivent même lorsque l&rsquo;utilisateur est déconnecté et ferme son navigateur. J&rsquo;aimerais également lui donner un design brutaliste, ouvertement daté pour coller à une esthétique de la fin des années 2000.</p>
+<p>L&rsquo;idée est ensuite de livrer cette application à la communauté pour qu&rsquo;elle s&rsquo;en serve et de permettre que le code source soit réutilisé pour d&rsquo;autres projets. Le projet sera maintenu par un travail collaboratif.</p>
+<p>Le projet est en cours de développement.</p>
 <h3>Rédaction d&rsquo;articles à destination des développeurs et des créatif· ves</h3>
 <p>J&rsquo;essaie de me mettre à écrire des articles à destination des développeurs et des créatif· ves. </p>
 <p>J&rsquo;ai écrit <a href="https://pschuhmacher.gumroad.com/l/writing-workflow">cet article</a>, sur une proposition d&rsquo;environnement et un processur éditorial pour toutes les activités d&rsquo;écriture. </p>

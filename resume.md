@@ -168,20 +168,22 @@ J'ai mis à disposition [un dépôt](https://github.com/websealevel/starterpack-
 
 ### [Développement d'une plateforme d'édition collaborative à destination d'une communauté](https://github.com/websealevel/archives-de-bureaulogie)
 
-Les archives de bureaulogie est un projet qui a pour ambition de promouvoir la bureaulogie en proposant une plateforme collaborative de publication d'extraits vidéos du [tribunal des bureaux](https://www.youtube.com/watch?v=YglE-FnSd3g&list=PLDN-m4HWH8MBKJLYIK-80qJBBkVJbPo9p) d'ackboo, journaliste chez CanardPC,  ainsi que de diffusion de références bibliographiques pour approfondir le sujet.
+[Les archives de bureaulogie](https://archives-de-bureaulogie.fr/) est un projet qui a pour ambition de promouvoir la bureaulogie en proposant une plateforme collaborative de publication d'extraits vidéos du [tribunal des bureaux](https://www.youtube.com/watch?v=YglE-FnSd3g&list=PLDN-m4HWH8MBKJLYIK-80qJBBkVJbPo9p) d'ackboo, journaliste chez CanardPC,  ainsi que de diffusion de références bibliographiques pour approfondir le sujet.
 
-Il sert également de prétexte pour construire un outil en vanilla php pour se former (notamment à la sécurité) et pour s'amuser.
+Il sert également de prétexte pour construire un outil en *vanilla PHP* pour se former (notamment à la sécurité) et surtout pour s'amuser.
 
-Le projet peut être divisé en 4 composants
+Le projet peut être divisé en 4 composants :
 
 - une application web pour éditer des extraits vidéos, télécharger des vidéos à *cliper*, soummettre des références bibliographiques, modérer toutes les ressources proposées par des modérateurs
 - une application *core*, indépendante de l'appli web, qui manipule les fichiers vidéos (clip, téléchargement), accessible directement depuis une CLI
 - des bots Twitter qui vont venir poster des extraits issus de cette base de données à intervalle régulier
 - une base de données relationnelle, notamment pour gérer les comptes utilisateurs, ainsi que leurs roles et leurs droits associés
 
-Le projet est servi par une combinaison *Nginx/php-fpm*.
+Le projet est servi par une combinaison *Nginx/php-fpm*. Il propose des processus de téléchargement en arrière-plan pour que ces derniers se poursuivent même lorsque l'utilisateur est déconnecté et ferme son navigateur. J'aimerais également lui donner un design brutaliste, ouvertement daté pour coller à une esthétique de la fin des années 2000.
 
-L'idée est ensuite de livrer cette application à la communauté pour qu'elle s'en serve et de permettre que le code source soit réutilisé pour d'autres projets.
+L'idée est ensuite de livrer cette application à la communauté pour qu'elle s'en serve et de permettre que le code source soit réutilisé pour d'autres projets. Le projet sera maintenu par un travail collaboratif.
+
+Le projet est en cours de développement.
 
 ### Rédaction d'articles à destination des développeurs et des créatif· ves
 
