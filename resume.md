@@ -181,7 +181,7 @@ Jusqu'ici j'ai sous-titré
 
 ### [Développement et maintenance d'un starterpack dockerisé](https://github.com/websealevel/starterpack-front-php8-postgresql-adminer)
 
-J'ai mis à disposition [un dépôt](https://github.com/websealevel/starterpack-front-php8-postgresql-adminer) afin de fabriquer, utiliser un starterpack dans un worflow *Docker multi-projets friendly*. Cet environnement utiliser Docker et traefick comme reverse-proxy pour se créer un environnement de développement local pratique, *machine-indépendant*.
+Je maintiens [un dépôt](https://github.com/websealevel/starterpack-front-php8-postgresql-adminer) documenté pour permettre de fabriquer, d'utiliser un environnement de développement * dockerisé et multi-projets friendly*. Cet environnement utiliser docker et traefick comme reverse-proxy pour créer un environnement de développement local pratique, *machine-indépendant* et multi-projets.
 
 ### [Développement d'une plateforme d'édition collaborative à destination d'une communauté](https://github.com/websealevel/archives-de-bureaulogie)
 
