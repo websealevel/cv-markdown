@@ -296,9 +296,11 @@ J'écris des articles à destination des développeurs et des créatif·ves :
 - fabrication de meubles en bois et métal (soudure)
 - pratique en amateur de la mosaïque
 - pratique de la guitare et du banjo irlandais
-- alpinisme
-- tennis
-- enseignement et vulgarisation
+- l'alpinisme
+- tennis, badminton
+- l'enseignement et vulgarisation
 - écrire (en Markdown)
+- le légendaire de Tolkien
 - trouver, lire, recommander et vivre parmi les livres techniques sur l'informatique et le design web
 - [projets informatiques personnels](#projets-personnels) (génération  procédurale, sites web, écriture)
+- échanger avec d'autres développeurs et designers sur Internet (blogs, serveurs Discord)
