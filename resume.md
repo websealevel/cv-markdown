@@ -11,7 +11,7 @@ line. It is intended to be used for contact details -->
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
-Développeur web / formateur free-lance. Aspire également à travailler un jour en lien avec le monde de l'édition IT.
+Développeur web / formateur free-lance. Aspire également à travailler en lien avec le monde de l'édition IT.
 
 <small>Ce CV a été écrit en Markdown, en utilisant le projet [resume.md](https://github.com/mikepqr), maintenu par Mike Lee Williams</small>
 
@@ -26,7 +26,7 @@ hand -->
 
 ##### Développement web
 
-Je m'installe à mon compte pour offrir des prestations de développement/conception
+Je m'installe à mon compte pour offrir des prestations de développement/conception :
 
 - Développement de sites, applications web. E-commerce, gestion de systèmes d'utilisateurs, connexion de sites à des services externes
 - Recueil des besoins utilisateurs. Formalisation des besoins.  Conception base de données relationnelle, modélisation de la logique métier
@@ -49,14 +49,14 @@ Je vais également intervenir en tant que formateur sur les formations suivantes
 - Sécuriser les applications PHP
 - Wordpress
 
-##### Projets de publication (en parallèle)
+##### Projets de publication
 
-Je compte également mener en parallèle des projets de publication
+Je mène également des projets de publication
 
 - en contact avec Alex Miller (Cognitect, Clojure) et Hiram Madelaine (Eloquent Logic, gérant du Meetup de Clojure de Paris) pour travailler sur la traduction et la transcription de 7 conférences de [Rich Hickey](https://en.wikipedia.org/wiki/Rich_Hickey) en français à destination des francophones.
-- proposition de ré-édition de *La Nature de la Physique* de Richard Feynman, publié aux éditions du Point. Projet en cours de rédaction, soumis prochainement à Farhang Radjaï (Directeur CNRS) et Étienne Guyon (Physicien français) puis à l'éditeur
+- proposition de ré-édition de *La Nature de la Physique* de Richard Feynman, publié aux *Éditions Points*. Avec l'appui de [Farhang Radjaï](http://www.lmgc.univ-montp2.fr/perso/franck-radjai/) (Directeur de recherche au CNRS), révisé par la suite par [Étienne Guyon](https://fr.wikipedia.org/wiki/%C3%89tienne_Guyon) (Physicien français,professeur à l'ESPCI ParisTech et directeur honoraire de l'École Noramle Supérieure)
 
-##### Prestations à venir
+##### Prestations en cours
 
 - développement d'un site sur mesure pour [l'atelier du bois d'or](https://atelierduboisdor.fr/), atelier de dorure et d'ébénisterie à Rennes. Site vitrine, blog, contact et mise en avant de projets.
 - développement d'un site pour l'association [CroqSep](https://docteurparadi.com/croqsep). Vitrine, gestion des ateliers (agenda, inscriptions), newsletter, gestion des adhésions (paiement en ligne, génération de facture et du reçu fiscal), contenu réservé aux adhérents, mise à disposition des comptes-rendus d'AG
@@ -106,13 +106,14 @@ Stage de formation
 - participation à l'organisation d'une conférence internationale à Montpellier (Powder and Grains 2017)
 
 
-### <span>Doctorat en physique/mécanique, Laboratoire de Mécanique et Génie Civil (Montpellier)</span> <span>2013 -- 2016</span>
+### <span>Thèse de doctorat en physique/mécanique, Laboratoire de Mécanique et Génie Civil (Montpellier)</span> <span>2013 -- 2016</span>
 
 - modélisation et simulation numériques d'écoulement granulaire (C++, fortran)
 - analyse de données
 - communication : publication, conférences internationales en anglais, séminaires
 - tuteur de projets informatiques, encadrement d'étudiants de Polytech
 - organisation et animation d'exposition scientifique *[Toucher,casser,couler](https://coulomb.umontpellier.fr/Vernissage-de-l-exposition-Toucher)* d'Étienne Guyon à Montpellier, tout public
+- rédaction d'une thèse disponible [ici](https://hal.inria.fr/tel-01571196v2)
 
 ### <span>Stage de recherche sur la simulation de bancs de poissons (Toulouse)</span> <span>2013</span>
 
@@ -170,16 +171,16 @@ Régulièrement mis à jour.
 
 Accessible [ici](https://github.com/websealevel/awesome-fr)
 
-### [Sous-titrage de conférences scientifiques/techniques en anglais](https://www.youtube.com/watch?v=GSeSqqUV7_4&list=PLS3XEhTy6-AkS1j8JrHoJnkSrY31Bfddl)
+### [Sous-titrage de conférences scientifiques et techniques anglaises en français](https://www.youtube.com/watch?v=GSeSqqUV7_4&list=PLS3XEhTy6-AkS1j8JrHoJnkSrY31Bfddl)
 
-Jusqu'ici j'ai sous-titré
+Depuis 2014, j'ai sous-titré
 
 - des conférences données par le physicien [R. Feynman](https://fr.wikipedia.org/wiki/Richard_Feynman) à l'Université de Cornell en 1964 sur *Le caractère des lois physiques*. Ces conférences sont aujourd'hui largement disponibles sur le web. Malheureusement, il n'existait à ce jour aucune version intégralement sous-titrée en français pour faciliter l'accès aux francophones à ce contenu de grande qualité. [5 conférences sur 7 sous-titrées](https://www.youtube.com/watch?v=GSeSqqUV7_4&list=PLS3XEhTy6-AkS1j8JrHoJnkSrY31Bfddl). Mise à disposition des sous-titres sous licence Creative Commons sur [ce dépôt Github](https://github.com/galileo51galilei/feynman-subtitles).
 - la conférence [*The value of values*](https://www.youtube.com/watch?v=VJi1vOwu2SM&list=PLS3XEhTy6-AkS1j8JrHoJnkSrY31Bfddl&index=6) de Rich Hickey, sur les concepts fondamentaux des systèmes d'information
-- d'autres conférences sur des sujets liés à la programmation et à ses paradigmes à venir, notamment la superbe série de cours [Structure and Interpration of Computer Programs](https://www.youtube.com/watch?v=-J_xL4IGhJA&list=PLE18841CABEA24090) d'Abelson et Sussman
+- d'autres conférences sur des sujets liés à la programmation et à ses paradigmes, notamment la superbe série de cours [Structure and Interpration of Computer Programs](https://www.youtube.com/watch?v=-J_xL4IGhJA&list=PLE18841CABEA24090) d'Abelson et Sussman (en cours)
 
 
-### [Développement et maintenance d'un starterpack dockerisé](https://github.com/websealevel/starterpack-front-php8-postgresql-adminer)
+### [Développement et maintenance d'un starterpack *dockerisé*](https://github.com/websealevel/starterpack-front-php8-postgresql-adminer)
 
 Je maintiens [un dépôt](https://github.com/websealevel/starterpack-front-php8-postgresql-adminer) documenté pour permettre de fabriquer, d'utiliser un environnement de développement * dockerisé et multi-projets friendly*. Cet environnement utiliser docker et traefick comme reverse-proxy pour créer un environnement de développement local pratique, *machine-indépendant* et multi-projets.
 
@@ -189,7 +190,7 @@ Je maintiens [un dépôt](https://github.com/websealevel/starterpack-front-php8-
 
 Il sert également de prétexte pour construire un outil en *vanilla PHP* pour se former (notamment à la sécurité) et surtout pour s'amuser.
 
->Je n'utilise pas de framework dans le but de ressentir plus en profondeur leurs intérêts et me former au *PHP bas niveau*. Ce projet ne respecte pas encore le PSR-4 (architecture composants) mais le fera prochainement.
+>Je n'utilise pas de framework dans le but de comprendre plus en profondeur leurs intérêts et me former au *PHP bas niveau*. Ce projet ne respecte pas encore le PSR-4 (architecture composants) mais le fera prochainement.
 
 Le projet peut être divisé en 4 composants :
 
@@ -211,11 +212,11 @@ Le projet est en cours de développement.
 
 ### Rédaction d'articles à destination des développeurs et des créatif· ves
 
-J'essaie de me mettre à écrire des articles à destination des développeurs et des créatif· ves. 
+J'écris des articles à destination des développeurs et des créatif·ves :
 
-J'ai écrit [cet article](https://pschuhmacher.gumroad.com/l/writing-workflow), sur une proposition d'environnement et un processus éditorial pour toutes les activités d'écriture. 
+- [un article](https://pschuhmacher.gumroad.com/l/writing-workflow) sur une proposition d'environnement et un processus éditorial pour toutes les activités d'écriture. Le but est de proposer à des personnes créatives de s'emparer d'outils gratuits et open source comme le Markdown, git et GitHub pour se créer un environnement d'écriture sain et pratique, notamment pour des travaux collaboratifs. Je compte traduire cet article en anglais.
 
-Le but est de proposer à des personnes créatives de s'emparer d'outils gratuits et open source comme le Markdown, git et GitHub pour se créer un environnement d'écriture sain et pratique, notamment pour des travaux collaboratifs. Je m'essaie au passage à la monétisation, et je compte traduire cet article en anglais prochainement.
+- sur ce [site web personnel](https://lune00.github.io) je propose des articles avec du contenu interactif et pédagogique. J'ai écrit deux articles sur [l'analyse d'un cas de confusion en JS](https://lune00.github.io/posts/post-callback/post.html), et un autre sur [la gestion des traitements asynchrones en JS](https://lune00.github.io/posts/post-asynchrone/post.html). Enfin, j'ai écrit [un article sur les Quadtree](https://lune00.github.io/posts/post-quadtree/post.html) avec des exemples interactifs (utilisant la librairie p5.js), des cas d'utilisation et un guide sur son implémentation. Inspiré par le merveilleux blog de [RedBlobGames](https://www.redblobgames.com/), notamment connu pour s[on article de référence sur les grilles héxagonales](https://www.redblobgames.com/grids/hexagons/)
 
 ## Compétences techniques
 
@@ -250,9 +251,9 @@ Le but est de proposer à des personnes créatives de s'emparer d'outils gratuit
 - Apache
 - Nginx
 
-## Dans le temps
+## Veille technologique et intérêts techniques
 
-### Quelques technologies que je souhaite explorer à l'avenir
+### Technologies
 
 - Symfony (remise à niveau)
 - API Platform
@@ -276,28 +277,28 @@ Le but est de proposer à des personnes créatives de s'emparer d'outils gratuit
 - l'architecture de l'information
 - la génération procédurale (et ses limites)
 - la programmation fonctionnelle
+- l'art génératif
 
 ## Savoir-être
 
 - communication
-- motivée, rigoureuse
+- motivé, rigoureux
 - maîtrise de l'anglais écrit et oral
 - capacités rédactionnelles
 - esprit d'équipe
 - esprit créatif
-- parler en public
 - pédagogie
+- capacité à m'exprimer dans le cadre d'un travail en équipe, relation client (vulgarisation des enjeux techniques pour employer un langage commun)
+- mettre mon savoir-faire au service des autres
 
 ## Centres d'intérêt
 
 - fabrication de meubles en bois et métal (soudure)
-- [projets informatiques personnels](#projets-personnels) (génération procédurale, sites web, écriture)
-- échanger avec d'autres développeurs et designers sur Internet (blogs, serveurs Discord)
 - pratique en amateur de la mosaïque
 - pratique de la guitare et du banjo irlandais
 - alpinisme
 - tennis
 - enseignement et vulgarisation
-- le social
 - écrire (en Markdown)
 - trouver, lire, recommander et vivre parmi les livres techniques sur l'informatique et le design web
+- [projets informatiques personnels](#projets-personnels) (génération  procédurale, sites web, écriture)
